@@ -18,11 +18,23 @@ Functionality-wise you can:
 
 Just download the latest release. Add the .mpk file to your projects widget folder. Open your project (press F4 if your project is already open). The dnbTableWidget will now be available in the Add-on dropdown when you're styling a page.
 
-Put the widget on the page with a table. Give the table a unique class name. Use the same class name in the widgets ClassName attribute. Run and done.
+Put the widget on the page with a table. 
+
+![The dndTableWidget in the Modeler](images/dnbTableWidget-InModeler.PNG?raw=true "The dndTableWidget in the Modeler")
+
+Give the table a unique class name. 
+
+![The table properties](images/dnbTableWidget-TableProperties.PNG?raw=true "The table properties")
+
+Use the same class name in the widgets ClassName attribute. 
+
+![The dndTableWidget properties](images/dnbTableWidget-WidgetProperties.PNG?raw=true "The dndTableWidget properties")
 
 You can also specify the text you want in the settings button, whether you want to see a settings icon in the button and what the wording will be when you hover over the settings button.
 
-** pictures coming soon **
+Run your project and you're done.
+
+![The dndTableWidget in action](images/dnbTableWidget-UI.PNG?raw=true "The dndTableWidget in action")
 
 ------
 ###Where will it work?
