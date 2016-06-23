@@ -22,7 +22,7 @@ Put the widget on the page with a table. Give the table a unique class name. Use
 
 You can also specify the text you want in the settings button, whether you want to see a settings icon in the button and what the wording will be when you hover over the settings button.
 
-** picutres coming soon **
+** pictures coming soon **
 
 ------
 ###Where will it work?
