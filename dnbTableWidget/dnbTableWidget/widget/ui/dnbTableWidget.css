@@ -1,0 +1,92 @@
+.table {
+    table-layout: fixed;
+}
+
+.mx-datagrid-head-caption,
+.mx-datagrid-data-wrapper {
+    text-overflow: ellipsis;
+}
+
+*[draggable=true] {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -khtml-user-drag: element;
+    -webkit-user-drag: element;
+}
+
+.dnbTblStyleList {
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+    background-color: #fff;
+}
+
+.dnbTblStyleList li {
+    cursor: grab;
+    padding: 8px 16px 8px 32px;
+    border-bottom: 1px solid #ddd;
+    list-style: none;
+    width: 100%;
+}
+
+.dnbTblStyleList li.dnbDragOver {
+    background-color: #eee;
+    opacity: 0.4;
+    color: #000;
+}
+
+.dnbBtnShowHideList {
+    float: right;
+    margin-bottom: 3px;
+}
+
+.dnb-datagrid-column-resizer {
+    position: absolute;
+    top: 0;
+    left: -6px;
+    width: 10px;
+    height: 100%;
+    cursor: col-resize;
+}
+
+.dnbIcnCog {
+    font-size: 15px;
+    vertical-align: top;
+}
+
+.dnbBtnText {
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.dnbVisible {
+    background-color: #40bf40;
+    color: #fff;
+}
+
+.dnbHidden {
+    background-color: #CC3333;
+    color: #fff;
+}
+
+.dnbVisible::before,
+.dnbHidden::before {
+    position: absolute;
+    left: 0;
+    margin-left: 8px;
+    margin-top: 2px;
+}
+
+.dnbVisible::before {
+    content: "\e105";
+}
+
+.dnbHidden::before {
+    content: "\e106";
+}
+
+.glyphicon {
+    display: block;
+}

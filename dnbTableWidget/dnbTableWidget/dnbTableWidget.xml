@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="dnbTableWidget.widget.dnbTableWidget" needsEntityContext="false" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>dnbTableWidget</name>
+    <description>Widget to customise Mendix tables.</description>
+
+    <icon />
+
+    <properties>
+        <property key="classnameString" type="string" required="true" defaultValue="">
+            <caption>ClassName</caption>
+            <category>Behaviour</category>
+            <description>The class name of the table to customise. This must be a unique name.</description>
+        </property>
+        <property key="btnString" type="string" required="false" defaultValue="Configure">
+            <caption>Button Text</caption>
+            <category>Appearance</category>
+            <description>The text of the customise button.</description>
+        </property>
+        <property key="titleString" type="string" required="false" defaultValue="Configure this table">
+            <caption>Button Tooltip Text</caption>
+            <category>Appearance</category>
+            <description>The text shown when you hover over the button.</description>
+        </property>
+        <property key="showIconBoolean" type="boolean" required="true" defaultValue="true">
+            <caption>Show Button Icon</caption>
+            <category>Appearance</category>
+            <description>Show the cog icon in the button?</description>
+        </property>
+    </properties>
+</widget>
+
