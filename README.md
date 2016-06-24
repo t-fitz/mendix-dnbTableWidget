@@ -39,7 +39,7 @@ Run your project and you're done.
 ------
 ###Where will it work?
 
-I've tested this in Mendix 5 so you should be good for use in Mendix 5 and 6. 
+I've tested this in Mendix 5 so it should be good for use in Mendix 5 and 6. 
 
 As this uses the newer widget definition style it won't work, as is, in Mendix 4. Of course that doesn't stop you from scooping out the guts of the widget and putting it in a Mendix 4 widget template. Let me know if you do so I can link to it.
 
