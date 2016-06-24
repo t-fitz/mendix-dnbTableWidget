@@ -29,6 +29,7 @@
     border-bottom: 1px solid #ddd;
     list-style: none;
     width: 100%;
+    word-spacing: -8px;
 }
 
 .dnbTblStyleList li.dnbDragOver {
